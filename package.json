@@ -1,13 +1,11 @@
 {
-  "name": "ganache",
+  "name": "ganache-on-render",
   "version": "1.0.0",
-  "description": "",
+  "description": "Deploy Ganache on Render.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ganache-cli --host 0.0.0.0 --port 8545"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "ganache-cli": "^6.12.2"
   }
