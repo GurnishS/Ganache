@@ -4,7 +4,7 @@
   "description": "Deploy Ganache on Render.com",
   "main": "index.js",
   "scripts": {
-    "start": "ganache-cli --host 0.0.0.0 --port 8545"
+    "start": "ganache-cli --host 0.0.0.0 --port 8545 --cors=*"
   },
   "dependencies": {
     "ganache-cli": "^6.12.2"
